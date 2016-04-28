@@ -1,2 +1,2 @@
 FROM ubuntu:14.04
-RUN apt-get install -y zip
+RUN apt-get update -y && apt-get install -y zip
